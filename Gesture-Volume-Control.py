@@ -22,7 +22,10 @@ maxVol = volRange[1]
 cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 mpHands = mp.solutions.hands
-hands = mpHands.Hands()
+hands = mpHands.Hands(static_image_mode=False,
+                      max_num_hands=2,
+                      min_detection_confidence=0.7,
+                      min_tracking_confidence=0.7)
 mpDraw = mp.solutions.drawing_utils
 
 pTime = 0
