@@ -1,4 +1,4 @@
-# Hands-Tracking-MediaPipe
+# Gesture System Volume Control using Hands-Tracking
 
 1. https://mediapipe.dev/
 2. https://google.github.io/mediapipe/
